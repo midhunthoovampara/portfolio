@@ -13,7 +13,7 @@ const About = () => {
                 </div>
                 <Row className="justify-content-center">
                     <Col md={10} lg={8} className="text-center slide-up">
-                        <p className="lead text-muted mb-4 fs-4 fw-light">
+                        <p className="lead text-secondary mb-4 fs-4 fw-light">
                             I am <span className="text-white fw-bold">Midhun T</span>, a passionate software developer with a drive to build scalable,
                             high-performance web applications.
                         </p>

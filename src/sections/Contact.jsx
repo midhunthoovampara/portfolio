@@ -18,7 +18,7 @@ const Contact = () => {
                             <Row className="g-5">
                                 <Col md={5}>
                                     <h2 className="fw-bold mb-4">Let's <span className="text-primary">Talk</span></h2>
-                                    <p className="text-muted mb-5 fs-5">
+                                    <p className="text-white mb-5 fs-5">
                                         Have a project in mind or want to collaborate? I'm always open to
                                         discussing new projects and creative ideas.
                                     </p>

@@ -5,33 +5,33 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const projects = [
     {
         title: 'AmbulanceresponseApp',
-        description: 'An emergency response application designed to streamline ambulance dispatch and tracking.',
+        description: 'An emergency response application designed to streamline ambulance dispatch and tracking. It features real-time navigation and efficient communication between dispatchers and drivers.',
         techStack: ['React', 'Node.js', 'Maps API'],
-        image: 'https://placehold.co/600x400/1a1a1a/ffffff?text=Ambulance+Response+Deployment',
+        image: '/assets/projects/ambulance.jpg',
         demoLink: 'https://ambulanceresponse-app-midhunthoovamparas-projects.vercel.app',
         repoLink: 'https://github.com/midhunthoovampara/AmbulanceresponseApp'
     },
     {
         title: 'Course-Catalog',
-        description: 'A comprehensive educational resource management system for browsing and organizing courses.',
+        description: 'A comprehensive educational resource management system for browsing and organizing courses, with searchable filters and rating systems.',
         techStack: ['React', 'Bootstrap', 'API Integration'],
-        image: 'https://placehold.co/600x400/1a1a1a/ffffff?text=Course+Catalog+Deployment',
+        image: '/assets/projects/catalog.png',
         demoLink: 'https://course-catalog-midhunthoovamparas-projects.vercel.app',
         repoLink: 'https://github.com/midhunthoovampara/Course-Catalog'
     },
     {
         title: 'To-Do-app',
-        description: 'A sleek and efficient digital task management tool for organizing daily activities.',
+        description: 'A sleek and efficient digital task management tool for organizing daily activities, featuring a clean UI and task persistence.',
         techStack: ['React', 'CSS3', 'Local Storage'],
-        image: 'https://placehold.co/600x400/1a1a1a/ffffff?text=To-Do+App+Deployment',
+        image: '/assets/projects/todo.png',
         demoLink: 'https://to-do-app-midhunthoovamparas-projects.vercel.app',
         repoLink: 'https://github.com/midhunthoovampara/To-Do-app'
     },
     {
         title: 'Personal-static-website',
-        description: 'A clean and professional static portfolio project showcasing personal skills and projects.',
+        description: 'A clean and professional static portfolio project showcasing personal skills and projects with a responsive design and modern layout.',
         techStack: ['HTML5', 'CSS3', 'JavaScript'],
-        image: 'https://placehold.co/600x400/1a1a1a/ffffff?text=Static+Website+Deployment',
+        image: '/assets/projects/portfolio.png',
         demoLink: 'https://personal-static-website-midhunthoovamparas-projects.vercel.app',
         repoLink: 'https://github.com/midhunthoovampara/Personal-static-website'
     }
@@ -60,7 +60,7 @@ const Projects = () => {
                                     />
                                 </div>
                                 <h4 className="fw-bold mb-3">{project.title}</h4>
-                                <p className="text-muted mb-4 small flex-grow-1" style={{ lineHeight: '1.7' }}>
+                                <p className="text-secondary mb-4 small flex-grow-1" style={{ lineHeight: '1.7' }}>
                                     {project.description}
                                 </p>
                                 <div className="d-flex flex-wrap gap-2 mb-4">

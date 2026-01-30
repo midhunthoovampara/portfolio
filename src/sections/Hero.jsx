@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { HiDownload } from 'react-icons/hi';
 
 const Hero = () => {
     return (
@@ -35,12 +36,15 @@ const Hero = () => {
                             </a>
                         </div>
 
-                        <div className="d-flex gap-3 justify-content-center">
+                        <div className="d-flex gap-3 justify-content-center flex-wrap">
                             <Button href="#projects" className="btn-elegant">
                                 View My Work
                             </Button>
                             <Button href="#contact" className="btn-elegant-outline">
                                 Contact Me
+                            </Button>
+                            <Button href="https://drive.google.com/file/d/1FdfQhFugyz3iytrkOriB9gKz-LefzS1M/view?usp=drive_link" target="_blank" className="btn-elegant-outline">
+                                <HiDownload className="me-2" /> Resume
                             </Button>
                         </div>
                     </Col>
